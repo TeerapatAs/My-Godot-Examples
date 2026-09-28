@@ -42,7 +42,8 @@ if navigation_agent_2d.target_position != target_pos:
 * is_navigation_finished() -> bool					true if Node reaches [target_position].
   
 * get_next_path_position() -> Vector2				return next point in path for Node to move to.
-  <img width="290" height="326" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
+  
+  <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
 
 
 
