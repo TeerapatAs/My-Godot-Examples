@@ -2,7 +2,7 @@
 * [01. Movement through Character2D and Player Input](#-01-movement-through-character2d-and-player-input)
 * [02. Movement through Kinetic script](#-02-movement-through-kinetic-script)
 * [03. Movement through NavigateAgent2D: PATROL, PURSUIT, and WANDER](#%EF%B8%8F--03-movement-through-navigateagent2d-patrol-pursuit-and-wander)
-* [04. NavigateAgent2D](#-🗺️-04-navigateagent2d)
+* [04. NavigateAgent2D](#-%EF%B8%8F-04-navigateagent2d)
 ## 🏃 01. Movement through Character2D and Player Input
 <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/12188060-68f7-471b-90a4-1bf63dd8aacd" /> <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/8de13339-3fa3-4846-a06b-1dcf1a244471" />
 
