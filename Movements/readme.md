@@ -46,6 +46,7 @@ if navigation_agent_2d.target_position != target_pos:
   <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
 
 ### Set Up TileMap for NavigateAgent
+**Note:** The navigation only works on the tilemap that is set. If you don't set the tile, that tile is invisible to NavigateAgent. 
 * 📓 **Set Navigation Layer**: TileMap -> Tileset -> Set [ Navigation Layer ] as same as the [ Navigation Layer ] in [NavigateAgent2D]
   
 <img width="230" height="250" alt="image" src="https://github.com/user-attachments/assets/6aa262d9-808b-46a1-8d9d-3f2a81e085b0" />
