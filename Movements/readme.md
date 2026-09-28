@@ -28,8 +28,8 @@ Move in random direction with random [velocity] Vector.
 ## 🧙 🗺️ 04. NavigateAgent2D
 <img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/b800bd75-246a-4d0c-ac6b-aac06d2d37de" />
 
-<!-- Common var and func -->
-target_position: Vector2                    Use to set a new target ending point.
+### Common Var and Func.
+* target_position: Vector2                    Use to set a new target ending point.
 
 ***Warning***: Setting [ target_position ] multiple times in one frame ( Ex. Updating target_position on _process() )
 make Navigation Logic error! 
@@ -39,6 +39,11 @@ make Navigation Logic error!
 if navigation_agent_2d.target_position != target_pos:
 		navigation_agent_2d.target_position = target_pos
 ```
+* is_navigation_finished() -> bool					true if Node reaches [target_position].
+  
+* get_next_path_position() -> Vector2				return next point in path for Node to move to.
+  <img width="290" height="326" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
+
 
 
 
