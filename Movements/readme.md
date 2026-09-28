@@ -45,6 +45,19 @@ if navigation_agent_2d.target_position != target_pos:
   
   <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
 
+### Set Up TileMap for NavigateAgent
+* 📓 **Set Navigation Layer**: TileMap -> Tileset -> Set [ Navigation Layer ] as same as the [ Navigation Layer ] in [NavigateAgent2D]
+* 
+<img width="230" height="250" alt="image" src="https://github.com/user-attachments/assets/6aa262d9-808b-46a1-8d9d-3f2a81e085b0" />
+<img width="230" height="250" alt="image" src="https://github.com/user-attachments/assets/9176c448-f486-48d8-9f05-08f2ebb5d517" />
+
+* ☑️ **Set navigation Shape**: Follow pics. After this, the tile should be covered in blue like in the last pic.
+
+<img width="230" height="200" alt="image" src="https://github.com/user-attachments/assets/835e2533-63ed-4fcb-9a49-edc7eba7cbe9" />
+<img width="150" height="100" alt="image" src="https://github.com/user-attachments/assets/e848586e-c4e6-4762-9d39-d7037ec0d441" />
+<img width="120" height="150" alt="image" src="https://github.com/user-attachments/assets/6a3f8d2c-6984-49f4-921e-04fc7aa2b2a8" />
+
+
 
 
 
