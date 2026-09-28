@@ -26,6 +26,17 @@ Use [NavigateAgent2D] to update the position.
 Move in random direction with random [velocity] Vector.   
 
 ## 04. NavigateAgent2D
+<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/b800bd75-246a-4d0c-ac6b-aac06d2d37de" />
+
+<!-- Common var and func -->
+target_position: Vector2                    Use to set a new target ending point.
+***Warning***: Setting [ target_position ] multiple times in one frame ( Ex. Updating target_position on _process() )
+make Navigation Logic error! 
+🩹 FIX: Only update when a new [ target_position ] is not the same vector as the old one.
+```
+if navigation_agent_2d.target_position != target_pos:
+		navigation_agent_2d.target_position = target_pos
+```
 
 
 
