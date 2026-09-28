@@ -28,7 +28,7 @@ Move in random direction with random [velocity] Vector.
 ## 🧙 🗺️ 04. NavigateAgent2D
 <img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/b800bd75-246a-4d0c-ac6b-aac06d2d37de" />
 
-### Common Var and Func.
+### 🥇 Common Var and Func.
 * target_position: Vector2                    Use to set a new target ending point.
 
 ***Warning***: Setting [ target_position ] multiple times in one frame ( Ex. Updating target_position on _process() )
@@ -45,7 +45,7 @@ if navigation_agent_2d.target_position != target_pos:
   
   <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/fd2ea0ab-ea30-4fe4-9e05-f290f4a563d9" />
 
-### Set Up TileMap for NavigateAgent
+### 🗺️ Set Up TileMap for NavigateAgent
 **Note:** The navigation only works on the tilemap that is set. If you don't set the tile, that tile is invisible to NavigateAgent. 
 * 📓 **Set Navigation Layer**: TileMap -> Tileset -> Set [ Navigation Layer ] as same as the [ Navigation Layer ] in [NavigateAgent2D]
   
