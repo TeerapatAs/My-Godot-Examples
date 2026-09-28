@@ -15,16 +15,18 @@ Use [velocity] to update the position and rotation to the desired location. No n
 
 Use [NavigateAgent2D] to update the position.
 
-** This script includes **
+**This script includes**
 1. Area2D --> [ Collision2D ] [ Raycast ]
 2. NaviateAgent2D
 
-** WANDER **
+**WANDER**
+
 <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/e85b730e-4383-4d27-be4d-dd63d284530e" />
 
 Move in random direction with random [velocity] Vector.   
 
 ## 04. NavigateAgent2D
+
 
 
 
