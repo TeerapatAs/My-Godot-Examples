@@ -8,7 +8,7 @@ Use move_and_slide() to update the position to the desired location.
 
 Use [velocity] to update the position and rotation to the desired location. No need for move_and_slide().
 
-## 🗺️ 03. Movement through NavigateAgent2D ( PATROL, PURSUIT, and WANDER)
+## 🗺️ 📌 03. Movement through NavigateAgent2D ( PATROL, PURSUIT, and WANDER)
 
 <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/01d7fa14-385e-4daf-aaa0-902d8fe56d7e" />
 
