@@ -38,7 +38,8 @@ Get Raycast Info immediately. Normally Info is coming out after a frame.
 * **🕵️ Mask**
   
 <img width="316" height="192" alt="image" src="https://github.com/user-attachments/assets/7dc82a26-d997-4997-b024-a5e64592a109" />
-  Set up for detection
+
+  ***Set up for detection***
   
   ex. Floor = mask 1,2, and 3, then the floor can detects Object with Layer 1,2, and 3.
   
