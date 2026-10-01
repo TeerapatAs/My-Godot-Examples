@@ -15,9 +15,11 @@ Checkout functions : check_line_sight(), _on_area_2d_body_entered(body: Node2D),
   ray_cast.target_position = to_local(player_body.global_position)
   ```
 * force_raycast_update()
+  
 Get Raycast Info immediately. Normally Info is coming out after a frame.
 
 * get_collider()
+  
   Get what collided with the Raycast, Use with force_raycast_update() to gain updated Info.  ex.
   ``` var collider = ray_cast.get_coliider() ; if collider is Player ...```
 
