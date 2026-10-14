@@ -1,9 +1,17 @@
 ## Null Instance due to Loading not successful.
+### new() vs instantiate()
 
-**Always Remember:**
+***Use Class.new() if***
+1. Class is Pure Code: Resources, custom data classes, pure code objects ( ex. AttackObserver )
+2. Code doesn't need to have @onready and them
 
-1. Instantiate                       ```var child = ABC.new() ```          
-2. Set Variables in child **first**      ``` set_variables(child) ```
+***Use Class.instantiate() if***
+1. Class is Scene. You need .tscn.
+2. Code need to have @onready and them
+
+### Always Remember Order for Scene!!!:
+1. Instantiate Scene        ```var child = ABC.instantiate() ```          
+2. Set Variables in child **first**      ``` set_variables(child)   < -- You can set @onready var child_node's property here ```
 3. Then, Add Child!                   ``` A_Node.add_child(child) ```
 
 
