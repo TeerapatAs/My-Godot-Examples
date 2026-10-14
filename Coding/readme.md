@@ -2,8 +2,9 @@
 
 **Always Remember:**
 
-1. Instantiate                       var child = ABC.new()           
-2. Set Variables in child first      set_variables(child) 
+1. Instantiate                       ```var child = ABC.new() ```          
+2. Set Variables in child **first**      ``` set_variables(child) ```
+3. Then, Add Child!                   ``` A_Node.add_child(child) ```
 
 
 ## Direct class_name function called.
