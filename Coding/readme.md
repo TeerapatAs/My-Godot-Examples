@@ -1,3 +1,11 @@
+## Null Instance due to Loading not successful.
+
+**Always Remember:**
+
+1. Instantiate                       var child = ABC.new()           
+2. Set Variables in child first      set_variables(child) 
+
+
 ## Direct class_name function called.
 ex. When DamageNumber is a class.
 ```
