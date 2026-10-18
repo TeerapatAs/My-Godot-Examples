@@ -1,3 +1,13 @@
+
+## RefCounted
+
+1. Refcounted is free once no one refing it. Not when it stops refing someone.
+
+2. Only way to free a Refcounted by set it as null.
+
+
+
+
 ## Null Instance due to Loading not successful.
 ### new() vs instantiate()
 
@@ -8,7 +18,7 @@
 
 #### Example: 
 
-1. If a class is an extends of **node** . You can access a child node function in that node by 
+1. If a class is an extends of **node** . You can access a ***child node*** function in that node by 
    
 ```
   SceneTree --> Main
@@ -30,14 +40,33 @@ In Hello.gd,
 error_display.set_error_text() <-- AutoComplete!
 ```
 
-2.
+2.If a class is an extends of **RefCounted**. You can make ***any scene** access **any node** by this trick.
 
+In ErrorRegister (refCounted)
+```
+class_name ErrorRegister
+extends RefCounted
 
+static var error_display_node : ErrorDisplayNode = null <-- Need to be static so other script can see it.
+
+## Set Error to be display on buttom left.
+func set_error_text(_text:String):
+	if error_display_node:
+		error_display_node.set_error_text(_text)
+		return
+```
+
+In Main ( Or any script).
+
+```
+var error_register : ErrorRegister = ErrorRegister.new()   <-- Create new()
+error_register.set_error_text("Can't find TileMap. Level : Critical") <-- Call function in ErrorRegister
+error_register = null <-- Deref Self
+```
 
 ---
-3. If a class is an extends of **RefCounted**
 
-4. Code doesn't need to have @onready and them
+3. Code doesn't need to have @onready and them
 
 
    ** How to Access**
